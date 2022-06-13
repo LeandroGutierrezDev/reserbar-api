@@ -254,6 +254,9 @@ const baresControllers = {
             res.status(404).send("Error consulta db home");
         }
     },
+    joke: (req, res) => {
+        res.send("Puto el que lee, otra vez");
+    }
 };
 
 module.exports = baresControllers;

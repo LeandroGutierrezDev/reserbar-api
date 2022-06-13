@@ -24,6 +24,8 @@ routes.put("/:id/unreserve", verifyToken, baresControllers.reservarDelete)
 
 routes.get("/:id/reserve", baresControllers.getReservas);
 
+routes.get("/joke", baresControllers.joke);
+
 
 
 

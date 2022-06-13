@@ -19,6 +19,8 @@ routes.delete("/:id", verifyToken, usersControllers.deleteOneUser);
 
 routes.get("/:id/reservas", usersControllers.reservas);
 
+routes.get("/joke", usersControllers.joke);
+
 
 
 module.exports = routes;
